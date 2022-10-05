@@ -2,23 +2,18 @@
 <html>
 <head>
 </head>
-<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="../includes/lib/bootstrap-4.1.3-dist/css/bootstrap.css">
 
 <body>
 
 <div class="container-fluid">
         <div class="row justify-content-around gx-0">
             <nav class="navbar bg-light">
-                <div class="col-12 col-lg-4  text-center">
-                    <a class="navbar-brand" href="../php/index.php">
-                        <img src="framework/images/logo.jpg" alt="exemplo de logo" width= "250px">
-                    </a>
-                </div>
         
                 <div class="col-12 col-lg-6  text-center">
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <button class="btn btn-outline-success" type="submit">Sarch</button>
                     </form>
                 </div>
         
@@ -37,9 +32,7 @@
                     </div>
                 </div>
         
-                <div class="col-6 col-lg-1  text-center">
-                    <a href="../php/login.php"><img src="../images/perfil.png" alt="exemplo de login" width="50px"></a>
-                </div>
+              
             </nav>
         </div>
     </div>
