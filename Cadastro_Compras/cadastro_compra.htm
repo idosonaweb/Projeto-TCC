@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras</title>
+</head>
+
+<body>
+
+    <h1>Cadastro de Compras</h1>
+
+    <hr><br>
+
+  
+  
+    <form action = "cadastro_compra.php" method = "POST" enctype='multipart/form-data'>
+
+        <div class="form-item">
+          
+          <label for="data_compra">Data: </label>
+          
+          <input type="date" name="data_compra">
+          
+        </div>
+      
+        <div class="form-item">
+
+            <label for = "descricao_compra">Descrição da Compra: </label>
+            
+            <input type = "text" name = "descricao_compra" size = "300"></input>
+
+        </div>
+
+        <br>
+
+        <div class="form-item">
+
+            <label for = "qtd_produtos">Quantidade de Produtos: </label>
+            
+            <input type = "int" name = "qtd_produtos" size = "30"></input>
+
+        </div>
+
+        <br>
+
+        <div class="form-item">
+
+            <label for = "">Valor total: </label>
+            
+            <input type = "double" name = "valor_compra" size = "30"></input>
+
+        </div>
+
+        <br>
+
+        <div class="form-item">
+
+            <input type = "file" id = "foto_nota_fiscal" name = "foto_nota_fiscal" accept = "image/*" />
+        
+        </div>               
+
+        <div class="form-item">
+
+            <input id="btn" type="submit" value="Enviar" >
+            
+            <a href='index.php'> Voltar</a>
+        
+        </div>
+
+    </form>
+
+</body>
+</html>

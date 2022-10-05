@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Mercado</title>
+</head>
+
+<body>
+
+    <h1>Cadastro de Mercado</h1>
+
+    <hr><br>
+
+    <form action = "cadastro_mercado.php" method = "POST" enctype='multipart/form-data'>
+        
+        <div class="form-item">
+
+            <label for = "nome_mercado">Nome: </label>
+            
+            <input type = "text" name = "nome_mercado" size = "50"></input>
+
+        </div>
+
+        <br>
+
+        <div class="form-item">
+
+            <label for = "rua">Rua: </label>
+            
+            <input type = "text" name = "rua" size = "50"></input>
+
+        </div>
+
+        <br>
+
+        <div class="form-item">
+
+            <label for = "bairro">Bairro: </label>
+            
+            <input type = "text" name = "bairro" size = "30"></input>
+
+        </div>
+
+        <br>
+
+        <div class="form-item">
+
+            <label for = "cidade">Cidade: </label>
+            
+            <input type = "text" name = "cidade" size = "50"></input>
+
+        </div>
+
+        <br>
+
+        <div class="form-item">
+
+            <label for = "estado">Estado: </label>
+            
+            <input type = "text" name = "estado" size = "30"></input>
+
+        </div>
+
+        <br>
+
+        <div class="form-item">
+
+            <label for = "cep">CEP: </label>
+            
+            <input type = "text" name = "cep" size = "30"></input>
+
+        </div>
+
+        <br>
+
+        <div class="form-item">
+
+            
+            <input type = "file" id = "foto" name = "foto" accept = "image/*" />
+        
+        </div>               
+
+        <div class="form-item">
+
+            <input id="btn" type="submit" value="Enviar" >
+            
+            <a href='index.php'> Voltar</a>
+        
+        </div>
+
+    </form>
+
+</body>
+</html>
