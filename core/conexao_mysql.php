@@ -12,7 +12,9 @@
 
         $senha = '' ;
 
-        $conexao = mysqli_connect($servidor, $usuario, $senha, $banco, $port) ;
+        $database = 'purchase' ;
+
+        $conexao = mysqli_connect($servidor, $usuario, $senha, $banco, $port, $database) ;
 
         if (!$conexao) 
         {
