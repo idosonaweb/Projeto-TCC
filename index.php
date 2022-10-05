@@ -9,7 +9,7 @@
 
 <div class="container-fluid">
         <div class="row justify-content-around gx-0">
-            <nav class="navbar bg-ligth">
+            <nav class="navbar bg-light">
             <div class="col-12 col-lg-3  text-center">
                     <a class="navbar-brand" href="index.php">
                         <img src="imagens/logo.jpeg" alt="exemplo de logo" width="125px">
