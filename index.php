@@ -43,7 +43,19 @@
     </div>
 
     <img src="imagens/banner.png " width="1600" height="50"> 
-    <p style="text-align:center">Essa linha vai ficar centralizada.<br>
-E esta linha também.</p>
+
+    <div class="container"> 
+        <nav>
+            <span> MENU </span>
+    </div>
+    
+            <ul> 
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">O que é</a></li>
+            <li><a href="#">Funções</a></li>
+            <li><a href="#">Como Usar</a></li>
+            <li><a href="#">Cadastra-se</a></li>
+            </ul>
+        </nav>
 </body>
 </html>
