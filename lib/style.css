@@ -5,19 +5,23 @@
 }
 
 body{
-    background-image: linear-gradient( #000001, #00000063,), url();
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
+   background: #fcfcfc;
 }
-.container{
-    max-width: 1400px;
-    padding: 3%;
-    margin: 0 auto;
+footer{
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
 }
-nav{
+.footer-content{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    
 }
