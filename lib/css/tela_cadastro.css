@@ -16,7 +16,7 @@ body{
 }
 
 .container{
-    width: 80;
+    width: 110vh;
     height: 80vh;
 
     display: flex;
@@ -55,7 +55,7 @@ body{
     align-items: center;
 }
 
-.container-input-button button {
+#button {
     border: none;
     background-color: #6c63ff;
     padding: 0.4rem 1rem;
