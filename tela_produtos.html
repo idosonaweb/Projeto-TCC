@@ -1,91 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela Produto </title>
-    <link rel="stylesheet" href="tela_produto.css">
-    <script src="tela_produto.js" defer ></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style type="text/css">
-        h1{
-            font-family:'Times New Roman', Times, serif;
-            text-align: center; 
-            color: purple;
-        }
+  <nav>
+   
 
-        body{
-            background-color: rgb(224, 222, 238);
-        }
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Design</a></li>
+        <li><a href="#">Modelos</a></li>
+        <li><a href="#">Especs</a></li>
+        <li><a href="#">Lojas</a></li>
+        <li><a href="#">Contato</a></li>
+    </ul>
+</nav>
 
-    </style>
+
+  <link rel="stylesheet" href="./lib/css/tela_produto.css">
+  <script src="./lib/js/tela_produto.js" defer></script>
+  <title>Slider</title>
 </head>
 <body>
 
-    
-    <h1>Produtos de Limpeza </h1> <br>
+  <div id="wrapper">
+    <div id="container">
+        <header>
+            <div></div>
+        </header>
+        <div id="content"></div><!--content-->
+    </div><!--container-->
+</div><!--wrapper-->
 
-      <div class="container">
-      <button class="arrow-left control" aria-label="Previous image">◀</button>
-      <button class="arrow-right control" aria-label="Next Image">▶</button>
-      <div class="gallery-wrapper">
-        <div class="gallery">
-          <!--       <div class="item current-item cyan"></div>
-          <div class="item deeppink"></div>
-          <div class="item turquoise"></div>
-          <div class="item darkblue"></div>
-          <div class="item purple"></div> -->
-          <img src="https://i.pinimg.com/236x/1c/2e/b1/1c2eb11367fd1bb28d91c826ee746afa.jpg" alt="Beach Image" class="item current-item">
-          <img src="https://i.pinimg.com/236x/b7/11/c6/b711c63664d764505a168f5c9facc3a1.jpg" alt="Animal Image" class="item current-item">
-          <img src="https://i.pinimg.com/236x/ea/ef/34/eaef34f29f2e06f856fbd68c89e7cd18.jpg" class="item current-item">
-          <img src="https://i.pinimg.com/236x/b5/e1/50/b5e1508d9b8ee8cd405af76018957e56.jpg" alt="Zoo Image" class="item current-item">
-          <img src="https://i.pinimg.com/236x/56/c5/6b/56c56b8750c5dd465ff6e1933810036f.jpg" alt="Model Image" class="item current-item">
-        </div>
-      </div>
+  <div class="container-slider">
+    <button id="prev-button"><img src="./imagens/seta_s.png" alt="prev-button"></button>
+    <div class="container-images">
+      <img src="./imagens/Cotonete.jpg" alt="girl" class="slider on">
+      <img src="./imagens/escova.jpg" alt="girl" class="slider">
+      <img src="./imagens/shampoo.jpg" alt="ok" class="slider">
+      <img src="./imagens/banana.jpg" alt="ok" class="slider">
     </div>
-
-    <h1>Produtos de Beleza </h1>
-
-    <div class="container">
-        <button class="arrow-left control" aria-label="Previous image">◀</button>
-        <button class="arrow-right control" aria-label="Next Image">▶</button>
-        <div class="gallery-wrapper">
-          <div class="gallery">
-            <!--       <div class="item current-item cyan"></div>
-            <div class="item deeppink"></div>
-            <div class="item turquoise"></div>
-            <div class="item darkblue"></div>
-            <div class="item purple"></div> -->
-            <img src="https://i.pinimg.com/236x/1c/2e/b1/1c2eb11367fd1bb28d91c826ee746afa.jpg" alt="Beach Image" class="item current-item">
-            <img src="https://i.pinimg.com/236x/b7/11/c6/b711c63664d764505a168f5c9facc3a1.jpg" alt="Animal Image" class="item current-item">
-            <img src="https://i.pinimg.com/236x/ea/ef/34/eaef34f29f2e06f856fbd68c89e7cd18.jpg" class="item current-item">
-            <img src="https://i.pinimg.com/236x/b5/e1/50/b5e1508d9b8ee8cd405af76018957e56.jpg" alt="Zoo Image" class="item current-item">
-            <img src="https://i.pinimg.com/236x/56/c5/6b/56c56b8750c5dd465ff6e1933810036f.jpg" alt="Model Image" class="item current-item">
-          </div>
-        </div>
-      </div>
-
-      <h1>Bebidas</h1>
-
-      <div class="container">
-        <button class="arrow-left control" aria-label="Previous image">◀</button>
-        <button class="arrow-right control" aria-label="Next Image">▶</button>
-        <div class="gallery-wrapper">
-          <div class="gallery">
-            <!--       <div class="item current-item cyan"></div>
-            <div class="item deeppink"></div>
-            <div class="item turquoise"></div>
-            <div class="item darkblue"></div>
-            <div class="item purple"></div> -->
-            <img src="https://i.pinimg.com/236x/1c/2e/b1/1c2eb11367fd1bb28d91c826ee746afa.jpg" alt="Beach Image" class="item current-item">
-            <img src="https://i.pinimg.com/236x/b7/11/c6/b711c63664d764505a168f5c9facc3a1.jpg" alt="Animal Image" class="item current-item">
-            <img src="https://i.pinimg.com/236x/ea/ef/34/eaef34f29f2e06f856fbd68c89e7cd18.jpg" class="item current-item">
-            <img src="https://i.pinimg.com/236x/b5/e1/50/b5e1508d9b8ee8cd405af76018957e56.jpg" alt="Zoo Image" class="item current-item">
-            <img src="https://i.pinimg.com/236x/56/c5/6b/56c56b8750c5dd465ff6e1933810036f.jpg" alt="Model Image" class="item current-item">
-          </div>
-        </div>
-      </div>
-      
+    <button id="next-button"><img src="./imagens/seta_s.png" alt="next-button"></button>
+  </div>
 </body>
 </html>
