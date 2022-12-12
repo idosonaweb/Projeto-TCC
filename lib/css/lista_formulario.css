@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h2{
+    font-family: "Lucida Console", "Courier New", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: rgb(0, 0, 0);
+    background: #cf94ebda;
+}
+
+.form-group{
+    display: flex;
+    height: 45px;
+
+}
